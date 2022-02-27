@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta name="viewport" content="width=device-width"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Graphic Portfolio</title>
+    <link rel="stylesheet" href="../graphic/css/layout.css" type="text/css">
+    <link rel="icon" href="../img/jyw.png">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+   <style>
+        body { background-color: #f9d60c; }
+    </style>
+    
+    <script src="../graphic/js/jquery-3.5.1.js" type="text/javascript" text="javascript"></script>
+    <script src="../graphic/js/slick.min.js" type="text/javascript" text="javascript"></script>
+    
+    <script>
+        $(function(){
+            $(".nav_m").click(function(){
+                $("#modal_wrap").fadeIn(500)
+                $("#modal").css("left","0px")
+                $("body").css("overflowY","hidden") 
+                })
+
+                $("#modal_wrap").click(function(){
+                    $("#modal_wrap").fadeOut(500)
+                    $("#modal").css("left","200px")
+                    $("body").css("overflowY","auto") 
+                })
+        })
+    </script>
+</head>
+<body>
+  <div id="modal_wrap">
+            <div id="modal">
+              <a class="x" href="#"><img src="img/x.png" alt="닫기"></a>
+               <div class="nav_txt">
+                    <h3>WOONDESIGN</h3>
+                    <a href="index.html"><p><img src="img/home.png" alt=""> HOME</p></a>
+                    <a href="web.html"><p>WEB PROMOTION</p></a>
+               </div>  
+            </div>
+        </div>
+   <div class="wrap">
+<!--      header-->
+       <header class="clearfix">
+           <div id="logo">
+               <h1><a href="../index.html"><h1>WOONDESIGN</h1></a></h1>
+           </div>
+           <div class="nav_m">
+              <a href="#">
+                  <img src="img/menu_m.png" alt="">
+              </a>
+           </div>
+           <nav>
+               <ul class="clearfix">
+                   <li><a href="index.html"><h2><img src="img/homeb.png" alt=""> HOME</h2></a></li>
+                   <li><a href="web.html"><h2>WEB PROMOTION</h2></a></li>
+               </ul>
+           </nav>
+       </header>
+       
+<!--       title-->
+      <div class="title">
+          <h3>WEB PROMOTION</h3>
+          <p> 웹에서 사용한 배너와 프로모션, 이벤트 페이지 모음</p>
+      </div>
+      
+<!--      contents-->
+          <div class="con">
+             <ul class="clearfix">
+                <li>
+                    <div class="content">
+                        <img src="img/38.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/38_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/57.jpg" alt="web promotion">
+                        <h4>디지털 인쇄 홍보</h4>
+                        <p>WEB BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/57_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/37.jpg" alt="web promotion">
+                        <h4>소방학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/37_h.jpg" alt="web promotion">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/28.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/28_h.jpg" alt="web promotion">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/29.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/29_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/30.jpg" alt="web promotion">
+                        <h4>체력 무료 테스트</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/30_h.jpg" alt="web promotion">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/31.jpg" alt="web promotion">
+                        <h4>얼리버드</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/31_h.jpg" alt="web promotion">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/32.jpg" alt="web promotion">
+                        <h4>수강료 할인</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/32_h.jpg" alt="web promotion">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/33.jpg" alt="web promotion">
+                        <h4>카페 스킨</h4>
+                        <p>WEB</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/33_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/35.jpg" alt="web promotion">
+                        <h4>공무원저널 이벤트</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/35_h.jpg" alt="web promotion">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/36.jpg" alt="web promotion">
+                        <h4>공무원저널 이벤트</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/36_h.jpg" alt="web promotion">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/49.jpg" alt="web promotion">
+                        <h4>공무원 학원 이벤트</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/49_h.jpg" alt="web promotion">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/53.jpg" alt="web promotion">
+                        <h4>제로팩 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/53_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+ 
+                <li>
+                    <div class="content">
+                        <img src="img/55.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/55_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+  
+                <li>
+                    <div class="content">
+                        <img src="img/52.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/52_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/51.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/51_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/54.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/54_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/56.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/56_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/69.jpg" alt="web promotion">
+                        <h4>디지털 인쇄 홍보</h4>
+                        <p>WEB BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/69_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/34.jpg" alt="web promotion">
+                        <h4>TG, GDN</h4>
+                        <p>WEB BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/34_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/50.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PROMOTION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/50_h.jpg" alt="web promotion">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/46.jpg" alt="web promotion">
+                        <h4>공무원저널 SNS 스킨</h4>
+                        <p>WEB IMAGE</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/46_h.jpg" alt="poster">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/47.jpg" alt="web promotion">
+                        <h4>공무원학원 홍보</h4>
+                        <p>WEB PAGE</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/47_h.jpg" alt="web promotion">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/48.jpg" alt="web promotion">
+                        <h4>입학 안내</h4>
+                        <p>WEB PAGE</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/48_h.jpg" alt="web promotion">
+                    </div>
+                </li>          
+             </ul>
+          </div>
+          
+<!--        footer-->
+      <div class="footer">
+        <p>Copyright 2022. <span>YOUNG WOON JUNG</span> All rights reserved.</p>  
+      </div>
+   </div> 
+</body>
+</html>

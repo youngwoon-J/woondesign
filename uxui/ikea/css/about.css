@@ -1,0 +1,264 @@
+@-ms-viewport{width:device-width;}
+@-o-viewport{width:device-width;}
+@-moz-viewport{width:device-width;}
+@-webkit-viewport{width:device-width;}
+@viewport{width:device-width;}
+
+@-ms-transition-duration:2s;
+@-mos-transition-duration:2s;
+@-o-transition-duration:2s;
+@-webkit-transition-duration:2s;
+
+
+body, h1, h2, ul, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body{
+    background-color: #f7f8f8;
+}
+
+.wrapper{
+    padding:0 25px;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+.title{
+    display: table;
+    max-width: 1060px;
+    margin: 100px auto;
+    display: table;
+}
+
+.left_slide_wrap{
+    width: 60%;
+    vertical-align: top;
+    display: table-cell;
+}
+.left_slide_wrap li{ 
+    position: absolute;
+    max-width: 50vw;
+}
+
+.left_slide_wrap img{
+    width: 100%;
+    
+}
+
+.right_title{
+    width: 40%;
+    padding-left: 2vw;
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+.right_title h3{
+    font-size: 65px;
+    line-height: 1;
+    padding-bottom: 41px;
+}
+
+.right_title p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    word-spacing:1px;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+@keyframes slideUp {
+    0%{transform: translateY(200px); opacity:0;}
+}
+
+.slideUp{animation:slideUp 3s;}
+
+.con{
+    margin: 180px 0 ;
+    max-width:1060px;
+}
+
+.con img{
+    width:100%;
+    padding-bottom: 60px;
+}
+
+.con p{
+    max-width:920px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.con h4{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 24px;
+    padding-bottom: 36px;
+}
+
+.fixed{
+    background:url("../img/about/5.jpg")fixed;
+    background-position: center;
+    padding:200px;
+    max-width:100%;
+    color:white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 800;
+    letter-spacing:2px;
+    font-size: 4vw;
+    transition: font-size .5s;
+}
+
+.black{
+    padding: 5vw 27vw;
+    background-color: black;
+    color:white;
+    text-align: center;
+    line-height: 400px;
+}
+
+.black h4{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 24px;
+    padding-bottom: 36px;
+}
+
+.black p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+#footer{
+    height: 150px;
+    padding-bottom: 100px;
+}
+
+#footer h3{
+    font-size: 23px;
+    line-height: 1.2;
+}
+
+#copy {
+    margin-top:25px;
+}
+
+@media (max-width:825px){
+    .wrapper{
+        padding: 7%;
+    }
+    .title{
+        margin:0 auto;
+        position: relative;
+    }
+    
+    .title,
+    .left_slide_wrap,
+    .right_title
+    {
+        display: block;
+        width: auto;
+    }
+    .left_slide_wrap{
+        max-width: 500px;
+    }
+    
+    .left_slide_wrap li{
+        max-width: 640px;
+    }
+    
+    .left_slide_wrap img{
+        width:100%;
+    }
+    .right_title{
+        position: absolute;
+        z-index: 80;
+        right: 0;
+        top:350px;
+        max-width: 250px;
+        background-color: white;
+        padding: 30px;
+    }
+    
+    .right_title h3{
+        font-size: 7vw;
+        padding-bottom: 2vw;
+    }
+    
+    .right_title p{
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+       
+    .con{
+        margin: 100px 0 ;
+    }
+
+    .con img{
+        padding-bottom: 30px;
+    }
+
+    .con p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .con h4{
+        font-size: 30px;
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+
+    .fixed{
+        padding: 20vw;
+        font-size: 6vw;
+        transition: font-size .5s;
+    }
+
+    .black{
+        padding: 10vw 10vw;
+    }
+
+    .black h4{
+        font-size: 6.5vw;
+    }
+
+    .black p{
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .yellow_dot { display: none; }
+    
+    #footer h3 {
+        margin-top:15px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    
+    #footer {
+        position:relative;
+        left:-1vw;
+    }
+}

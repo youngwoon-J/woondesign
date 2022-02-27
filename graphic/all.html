@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta name="viewport" content="width=device-width"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Graphic Portfolio</title>
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="icon" href="../img/jyw.png">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <script src="js/jquery-3.5.1.js" type="text/javascript" text="javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript" text="javascript"></script>
+    
+    <script>
+        $(function(){
+            $(".nav_m").click(function(){
+                $("#modal_wrap").fadeIn(500)
+                $("#modal").css("left","0px")
+                $("body").css("overflowY","hidden") 
+                })
+
+                $("#modal_wrap").click(function(){
+                    $("#modal_wrap").fadeOut(500)
+                    $("#modal").css("left","200px")
+                    $("body").css("overflowY","auto") 
+                }) 
+        })
+    </script>
+</head>
+<body>
+  <div id="modal_wrap">
+            <div id="modal">
+              <a class="x" href="#"><img src="img/x.png" alt="닫기"></a>
+               <div class="nav_txt">
+                    <h3>WOONDESIGN</h3>
+                    <a href="index.html"><p><img src="img/home.png" alt=""> HOME</p></a>
+                    <a href="book.html"><p>BOOK</p></a>
+                    <a href="poster.html"><p>POSTER</p></a>
+                    <a href="banner.html"><p>LARGE SIZE</p></a>
+                    <a href="promotion.html"><p>PROMOTION GIFT</p></a>
+               </div>  
+            </div>
+        </div>
+   <div class="wrap">
+<!--      header-->
+       <header class="clearfix">
+           <div id="logo">
+               <h1><a href="../index.html"><h1>WOONDESIGN</h1></a></h1>
+           </div>
+           <div class="nav_m">
+              <a href="#">
+                  <img src="img/menu_m.jpg" alt="">
+              </a>
+           </div>
+           <nav>
+               <ul class="clearfix">
+                   <li><a href="index.html"><h2><img src="img/homeb.png" alt=""> HOME</h2></a></li>
+                   <li><a href="book.html"><h2>BOOK</h2></a></li>
+                   <li><a href="poster.html"><h2>POSTER</h2></a></li>
+                   <li><a href="banner.html"><h2>LARGE SIZE</h2></a></li>
+                   <li><a href="promotion.html"><h2>PROMOTION GIFT</h2></a></li>
+               </ul>
+           </nav>
+       </header>
+       
+<!--       title-->
+      <div class="title">
+          <h3>한눈에 보기</h3>
+          <p> 인쇄, 웹 관련 디자인 모음 </p>
+      </div>
+      
+<!--      contents-->
+          <div class="con">
+             <ul class="clearfix">
+               
+               <li>
+                    <div class="content">
+                        <img src="img/59.jpg" alt="book cover">
+                        <h4>밀리언 마일러 상품권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/59_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/60.jpg" alt="book cover">
+                        <h4>도서교환권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/60_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/20.jpg" alt="poster">
+                        <h4>성대로스쿨 회보</h4>
+                        <p>BROCHURE</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/20_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                
+                <li>
+                    <div class="content">
+                        <img src="img/01.jpg" alt="book cover">
+                        <h4>소방학개론의 진수</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/01_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/02.jpg" alt="book cover">
+                        <h4>2019 파이널 모의고사</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/02_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/63.jpg" alt="book cover">
+                        <h4>도장쿠폰</h4>
+                        <p>STAMP COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/63_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/64.jpg" alt="book cover">
+                        <h4>도장쿠폰</h4>
+                        <p>STAMP COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/64_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/58.jpg" alt="book cover">
+                        <h4>디지털인쇄 홍보</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/58_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/65.jpg" alt="book cover">
+                        <h4>QR 쿠폰</h4>
+                        <p>QR COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/65_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/66.jpg" alt="book cover">
+                        <h4>QR 쿠폰</h4>
+                        <p>QR COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/66_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/67.jpg" alt="book cover">
+                        <h4>할인 쿠폰</h4>
+                        <p>DISCOUNT COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/67_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/70.jpg" alt="poster">
+                        <h4>마스크 착용 배너</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/70_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/61.jpg" alt="book cover">
+                        <h4>꽃다발 상품권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/61_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/62.jpg" alt="book cover">
+                        <h4>애즈랜드 할인권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/62_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/68.jpg" alt="book cover">
+                        <h4>추석이벤트</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/68_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/03.jpg" alt="poster">
+                        <h4>스터디카페 할인</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/03_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/04.jpg" alt="book cover">
+                        <h4>소방공무원 오답노트</h4>
+                        <p>BOOK COVER</p>    
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/04_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/05.jpg" alt="book cover">
+                        <h4>브랜드 교재 시리즈</h4>
+                        <p>BOOK COVER</p>    
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/05_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/06.jpg" alt="book cover">
+                        <h4>웰컴 가이드북 시리즈</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/06_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/07.jpg" alt="book cover">
+                        <h4>카페 신메뉴 홍보</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/07_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/08.jpg" alt="book cover">
+                        <h4>소방영어 시리즈</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/08_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/09.jpg" alt="book cover">
+                        <h4>한방에 끝내는 행정법</h4>
+                        <p>BOOK COVER</p>    
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/09_h.jpg" alt="book cover">
+                    </div>
+                </li> 
+                
+                <li>
+                    <div class="content">
+                        <img src="img/10.jpg" alt="book cover">
+                        <h4>소방학원 상품권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/10_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/11.jpg" alt="book cover">
+                        <h4>영진상사 브로슈어</h4>
+                        <p>BROCHURE</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/11_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/12.jpg" alt="poster">
+                        <h4>카페 텀블러 이벤트</h4>
+                        <p>MINI BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/12_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/13.jpg" alt="poster">
+                        <h4>2018 파이널 모의고사</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/13_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/14.jpg" alt="poster">
+                        <h4>2017 파이널 모의고사</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/14_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/15.jpg" alt="poster">
+                        <h4>한국사 교재</h4>
+                        <p>BOOK DESIGN</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/15_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/16.jpg" alt="poster">
+                        <h4>카페 신메뉴 홍보</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/16_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/17.jpg" alt="poster">
+                        <h4>마스크 착용 배너</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/17_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/18.jpg" alt="poster">
+                        <h4>영단어장</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/18_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/19.jpg" alt="poster">
+                        <h4>뜯어쓰는 쿠폰</h4>
+                        <p>COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/19_h.jpg" alt="poster">
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="img/21.jpg" alt="poster">
+                        <h4>영어교재</h4>
+                        <p>BOOK DESIGN</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/21_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/22.jpg" alt="poster">
+                        <h4>소방학원 홍보</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/22_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/23.jpg" alt="poster">
+                        <h4>소방학원 홍보</h4>
+                        <p>POSTER</p>       
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/23_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/24.jpg" alt="poster">
+                        <h4>터치앤고 광고</h4>
+                        <p>TOUCH AND GO</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/24_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/25.jpg" alt="poster">
+                        <h4>터치앤고 광고</h4>
+                        <p>TOUCH AND GO</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/25_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/26.jpg" alt="poster">
+                        <h4>영어 교재</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/26_h.jpg" alt="poster">
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="img/44.jpg" alt="poster">
+                        <h4>학원 상품권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/44_h.jpg" alt="poster">
+                    </div>
+                </li>  
+                <li>
+                    <div class="content">
+                        <img src="img/27.jpg" alt="poster">
+                        <h4>파이널 체크 노트</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/27_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/40.jpg" alt="poster">
+                        <h4>라스트 체크 노트</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/40_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/39.jpg" alt="poster">
+                        <h4>합격관리반 홍보</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/39_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/41.jpg" alt="poster">
+                        <h4>특강 포스터</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/41_h.jpg" alt="poster">
+                    </div>
+                </li>  
+                <li>
+                    <div class="content">
+                        <img src="img/42.jpg" alt="poster">
+                        <h4>특강 포스터</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/42_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/43.jpg" alt="poster">
+                        <h4>특강 포스터</h4>
+                        <p>POSTER</p>      
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/43_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/45.jpg" alt="poster">
+                        <h4>모의고사 문제집</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/45_h.jpg" alt="poster">
+                    </div>
+                </li> 
+             </ul>
+          </div>
+        
+<!--        footer-->
+      <div class="footer">
+        <p>Copyright 2022. <span>YOUNG WOON JUNG</span> All rights reserved.</p>  
+      </div>
+   </div> 
+</body>
+</html>

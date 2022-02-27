@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta name="viewport" content="width=device-width"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Graphic Portfolio</title>
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="icon" href="../img/jyw.png">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <script src="js/jquery-3.5.1.js" type="text/javascript" text="javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript" text="javascript"></script>
+    
+    <script>
+        $(function(){
+            $(".nav_m").click(function(){
+                $("#modal_wrap").fadeIn(500)
+                $("#modal").css("left","0px")
+                $("body").css("overflowY","hidden") 
+                })
+
+                $("#modal_wrap").click(function(){
+                    $("#modal_wrap").fadeOut(500)
+                    $("#modal").css("left","200px")
+                    $("body").css("overflowY","auto") 
+                })
+        })
+    </script>
+</head>
+<body>
+  <div id="modal_wrap">
+            <div id="modal">
+              <a class="x" href="#"><img src="img/x.png" alt="닫기"></a>
+               <div class="nav_txt">
+                    <h3>WOONDESIGN</h3>
+                    <a href="index.html"><p><img src="img/home.png" alt=""> HOME</p></a>
+                    <a href="book.html"><p>BOOK</p></a>
+                    <a href="poster.html"><p>POSTER</p></a>
+                    <a href="banner.html"><p>LARGE SIZE</p></a>
+                    <a href="promotion.html"><p>PROMOTION GIFT</p></a>
+               </div>  
+            </div>
+        </div>
+   <div class="wrap">
+<!--      header-->
+       <header class="clearfix">
+           <div id="logo">
+               <h1><a href="../index.html"><h1>WOONDESIGN</h1></a></h1>
+           </div>
+           <div class="nav_m">
+              <a href="#">
+                  <img src="img/menu_m.jpg" alt="">
+              </a>
+           </div>
+           <nav>
+               <ul class="clearfix">
+                   <li><a href="index.html"><h2><img src="img/homeb.png" alt=""> HOME</h2></a></li>
+                   <li><a href="book.html"><h2>BOOK</h2></a></li>
+                   <li><a href="poster.html"><h2>POSTER</h2></a></li>
+                   <li><a href="banner.html"><h2>LARGE SIZE</h2></a></li>
+                   <li><a href="promotion.html"><h2>PROMOTION GIFT</h2></a></li>
+               </ul>
+           </nav>
+       </header>
+       
+<!--       title-->
+      <div class="title">
+          <h3>BOOK DESIGN</h3>
+          <p> 책, 브로슈어 등 제본 형태의 디자인 모음</p>
+      </div>
+      
+          <div class="con">
+             <ul class="clearfix">
+                <li>
+                    <div class="content">
+                        <img src="img/01.jpg" alt="book cover">
+                        <h4>소방학개론의 진수</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/01_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/02.jpg" alt="book cover">
+                        <h4>2019 파이널 모의고사</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/02_h.jpg" alt="book cover">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/04.jpg" alt="book cover">
+                        <h4>소방공무원 오답노트</h4>
+                        <p>BOOK COVER</p>    
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/04_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/05.jpg" alt="book cover">
+                        <h4>브랜드 교재 시리즈</h4>
+                        <p>BOOK COVER</p>    
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/05_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/06.jpg" alt="book cover">
+                        <h4>웰컴 가이드북 시리즈</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/06_h.jpg" alt="book cover">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/08.jpg" alt="book cover">
+                        <h4>소방영어 시리즈</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/08_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/09.jpg" alt="book cover">
+                        <h4>한방에 끝내는 행정법</h4>
+                        <p>BOOK COVER</p>    
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/09_h.jpg" alt="book cover">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/11.jpg" alt="book cover">
+                        <h4>영진상사 브로슈어</h4>
+                        <p>BROCHURE</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/11_h.jpg" alt="book cover">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/13.jpg" alt="book cover">
+                        <h4>2018 파이널 모의고사</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/13_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/14.jpg" alt="book cover">
+                        <h4>2017 파이널 모의고사</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/14_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/15.jpg" alt="book design">
+                        <h4>한국사 교재</h4>
+                        <p>BOOK DESIGN</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/15_h.jpg" alt="poster">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/18.jpg" alt="book cover">
+                        <h4>영단어장</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/18_h.jpg" alt="poster">
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="img/20.jpg" alt="brochure">
+                        <h4>성대로스쿨 회보</h4>
+                        <p>BROCHURE</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/20_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/21.jpg" alt="book cover">
+                        <h4>영어교재</h4>
+                        <p>BOOK DESIGN</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/21_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/26.jpg" alt="book cover">
+                        <h4>영어 교재</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/26_h.jpg" alt="poster">
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="img/27.jpg" alt="book cover">
+                        <h4>파이널 체크 노트</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/27_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/40.jpg" alt="book cover">
+                        <h4>라스트 체크 노트</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/40_h.jpg" alt="poster">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/45.jpg" alt="book cover">
+                        <h4>모의고사 문제집</h4>
+                        <p>BOOK COVER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/45_h.jpg" alt="book cover">
+                    </div>
+                </li>          
+             </ul>
+          </div>
+       
+<!--        footer-->
+      <div class="footer">
+        <p>Copyright 2022. <span>YOUNG WOON JUNG</span> All rights reserved.</p>  
+      </div>
+   </div> 
+</body>
+</html>

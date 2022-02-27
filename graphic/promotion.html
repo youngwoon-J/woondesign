@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta name="viewport" content="width=device-width"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Graphic Portfolio</title>
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="icon" href="../img/jyw.png">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <script src="js/jquery-3.5.1.js" type="text/javascript" text="javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript" text="javascript"></script>
+    
+    <script>
+        $(function(){
+            $(".nav_m").click(function(){
+                $("#modal_wrap").fadeIn(500)
+                $("#modal").css("left","0px")
+                $("body").css("overflowY","hidden") 
+                })
+
+                $("#modal_wrap").click(function(){
+                    $("#modal_wrap").fadeOut(500)
+                    $("#modal").css("left","200px")
+                    $("body").css("overflowY","auto") 
+                })
+        })
+    </script>
+</head>
+<body>
+  <div id="modal_wrap">
+            <div id="modal">
+              <a class="x" href="#"><img src="img/x.png" alt="닫기"></a>
+               <div class="nav_txt">
+                    <h3>WOONDESIGN</h3>
+                    <a href="index.html"><p><img src="img/home.png" alt=""> HOME</p></a>
+                    <a href="book.html"><p>BOOK</p></a>
+                    <a href="poster.html"><p>POSTER</p></a>
+                    <a href="banner.html"><p>LARGE SIZE</p></a>
+                    <a href="promotion.html"><p>PROMOTION GIFT</p></a>
+               </div>  
+            </div>
+        </div>
+   <div class="wrap">
+<!--      header-->
+       <header class="clearfix">
+           <div id="logo">
+               <h1><a href="../index.html"><h1>WOONDESIGN</h1></a></h1>
+           </div>
+           <div class="nav_m">
+              <a href="#">
+                  <img src="img/menu_m.jpg" alt="">
+              </a>
+           </div>
+           <nav>
+               <ul class="clearfix">
+                   <li><a href="index.html"><h2><img src="img/homeb.png" alt=""> HOME</h2></a></li>
+                   <li><a href="book.html"><h2>BOOK</h2></a></li>
+                   <li><a href="poster.html"><h2>POSTER</h2></a></li>
+                   <li><a href="banner.html"><h2>LARGE SIZE</h2></a></li>
+                   <li><a href="promotion.html"><h2>PROMOTION GIFT</h2></a></li>
+               </ul>
+           </nav>
+       </header>
+       
+<!--       title-->
+      <div class="title">
+          <h3>PROMOTION GIFT</h3>
+          <p> 상품권, 쿠폰 디자인 모음</p>
+      </div>
+      
+<!--      contents-->
+          <div class="con">
+             <ul class="clearfix">
+                <li>
+                    <div class="content">
+                        <img src="img/59.jpg" alt="book cover">
+                        <h4>밀리언 마일러 상품권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/59_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/60.jpg" alt="book cover">
+                        <h4>도서교환권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/60_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/61.jpg" alt="book cover">
+                        <h4>꽃다발 상품권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/61_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/62.jpg" alt="book cover">
+                        <h4>애즈랜드 할인권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/62_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/63.jpg" alt="book cover">
+                        <h4>도장쿠폰</h4>
+                        <p>STAMP COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/63_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/64.jpg" alt="book cover">
+                        <h4>도장쿠폰</h4>
+                        <p>STAMP COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/64_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/65.jpg" alt="book cover">
+                        <h4>QR쿠폰</h4>
+                        <p>QR COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/65_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+                
+                 <li>
+                    <div class="content">
+                        <img src="img/66.jpg" alt="book cover">
+                        <h4>QR쿠폰</h4>
+                        <p>QR COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/66_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/67.jpg" alt="book cover">
+                        <h4>할인쿠폰</h4>
+                        <p>DISCOUNT COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/67_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="content">
+                        <img src="img/19.jpg" alt="coupon">
+                        <h4>뜯어쓰는 쿠폰</h4>
+                        <p>COUPON</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/19_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/10.jpg" alt="book cover">
+                        <h4>소방학원 상품권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/10_h.jpg" alt="promotion gift">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/44.jpg" alt="promotion gift">
+                        <h4>학원 상품권</h4>
+                        <p>PROMOTION GIFT</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/44_h.jpg" alt="poster">
+                    </div>
+                </li>           
+             </ul>
+          </div>
+        
+<!--        footer-->
+      <div class="footer">
+        <p>Copyright 2022. <span>YOUNG WOON JUNG</span> All rights reserved.</p>  
+      </div>
+   </div> 
+</body>
+</html>

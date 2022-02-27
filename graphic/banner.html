@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta name="viewport" content="width=device-width"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Graphic Portfolio</title>
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="icon" href="../img/jyw.png">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <script src="js/jquery-3.5.1.js" type="text/javascript" text="javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript" text="javascript"></script>
+    
+    <script>
+        $(function(){
+            $(".nav_m").click(function(){
+                $("#modal_wrap").fadeIn(500)
+                $("#modal").css("left","0px")
+                $("body").css("overflowY","hidden") 
+                })
+
+                $("#modal_wrap").click(function(){
+                    $("#modal_wrap").fadeOut(500)
+                    $("#modal").css("left","200px")
+                    $("body").css("overflowY","auto") 
+                })
+        })
+    </script>
+</head>
+<body>
+  <div id="modal_wrap">
+            <div id="modal">
+              <a class="x" href="#"><img src="img/x.png" alt="닫기"></a>
+               <div class="nav_txt">
+                    <h3>WOONDESIGN</h3>
+                    <a href="index.html"><p><img src="img/home.png" alt=""> HOME</p></a>
+                    <a href="book.html"><p>BOOK</p></a>
+                    <a href="poster.html"><p>POSTER</p></a>
+                    <a href="banner.html"><p>LARGE SIZE</p></a>
+                    <a href="promotion.html"><p>PROMOTION GIFT</p></a>
+               </div>  
+            </div>
+        </div>
+   <div class="wrap">
+<!--      header-->
+       <header class="clearfix">
+           <div id="logo">
+               <h1><a href="../index.html"><h1>WOONDESIGN</h1></a></h1>
+           </div>
+           <div class="nav_m">
+              <a href="#">
+                  <img src="img/menu_m.jpg" alt="">
+              </a>
+           </div>
+           <nav>
+               <ul class="clearfix">
+                   <li><a href="index.html"><h2><img src="img/homeb.png" alt=""> HOME</h2></a></li>
+                   <li><a href="book.html"><h2>BOOK</h2></a></li>
+                   <li><a href="poster.html"><h2>POSTER</h2></a></li>
+                   <li><a href="banner.html"><h2>LARGE SIZE</h2></a></li>
+                   <li><a href="promotion.html"><h2>PROMOTION GIFT</h2></a></li>
+               </ul>
+           </nav>
+       </header>
+       
+<!--       title-->
+      <div class="title">
+          <h3>LARGE SIZE</h3>
+          <p> 대형 사이즈 디자인 모음 </p>
+      </div>
+      
+<!--      contents-->
+          <div class="con">
+             <ul class="clearfix">
+                <li>
+                    <div class="content">
+                        <img src="img/71.jpg" alt="stage wall">
+                        <h4>KT 행사 무대월</h4>
+                        <p>STAGE WALL</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/71_h.jpg" alt="stage wall">
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="img/72.jpg" alt="stage wall">
+                        <h4>KT 행사 키비주얼</h4>
+                        <p>VARIATION</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/72_h.jpg" alt="stage wall">
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="img/73.jpg" alt="stage wall">
+                        <h4>KT 행사 포토월</h4>
+                        <p>PHOTO WALL</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/73_h.jpg" alt="stage wall">
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="img/70.jpg" alt="poster">
+                        <h4>마스크 착용 배너</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/70_h.jpg" alt="poster">
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="img/58.jpg" alt="book cover">
+                        <h4>디지털인쇄 홍보</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/58_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/07.jpg" alt="book cover">
+                        <h4>카페 신메뉴 홍보</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/07_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/12.jpg" alt="poster">
+                        <h4>카페 텀블러 이벤트</h4>
+                        <p>MINI BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/12_h.jpg" alt="poster">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/16.jpg" alt="poster">
+                        <h4>카페 신메뉴 홍보</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/16_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/17.jpg" alt="poster">
+                        <h4>마스크 착용 배너</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/17_h.jpg" alt="poster">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/24.jpg" alt="poster">
+                        <h4>터치앤고 광고</h4>
+                        <p>TOUCH AND GO</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/24_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                
+                <li>
+                    <div class="content">
+                        <img src="img/68.jpg" alt="book cover">
+                        <h4>추석 이벤트</h4>
+                        <p>BANNER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/68_h.jpg" alt="book cover">
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                        <img src="img/25.jpg" alt="poster">
+                        <h4>터치앤고 광고</h4>
+                        <p>TOUCH AND GO</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/25_h.jpg" alt="poster">
+                    </div>
+                </li>         
+             </ul>
+          </div>
+        
+<!--        footer-->
+      <div class="footer">
+        <p>Copyright 2022. <span>YOUNG WOON JUNG</span> All rights reserved.</p>  
+      </div>
+   </div> 
+</body>
+</html>

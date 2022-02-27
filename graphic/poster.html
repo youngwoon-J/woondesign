@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta name="viewport" content="width=device-width"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Graphic Portfolio</title>
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="icon" href="../img/jyw.png">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <script src="js/jquery-3.5.1.js" type="text/javascript" text="javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript" text="javascript"></script>
+    
+    <script>
+        $(function(){
+            $(".nav_m").click(function(){
+                $("#modal_wrap").fadeIn(500)
+                $("#modal").css("left","0px")
+                $("body").css("overflowY","hidden") 
+                })
+
+                $("#modal_wrap").click(function(){
+                    $("#modal_wrap").fadeOut(500)
+                    $("#modal").css("left","200px")
+                    $("body").css("overflowY","auto") 
+                })
+        })
+    </script>
+</head>
+<body>
+  <div id="modal_wrap">
+            <div id="modal">
+              <a class="x" href="#"><img src="img/x.png" alt="닫기"></a>
+               <div class="nav_txt">
+                    <h3>WOONDESIGN</h3>
+                    <a href="index.html"><p><img src="img/home.png" alt=""> HOME</p></a>
+                    <a href="book.html"><p>BOOK</p></a>
+                    <a href="poster.html"><p>POSTER</p></a>
+                    <a href="banner.html"><p>LARGE SIZE</p></a>
+                    <a href="promotion.html"><p>PROMOTION GIFT</p></a>
+               </div>  
+            </div>
+        </div>
+   <div class="wrap">
+<!--      header-->
+       <header class="clearfix">
+           <div id="logo">
+               <h1><a href="../index.html"><h1>WOONDESIGN</h1></a></h1>
+           </div>
+           <div class="nav_m">
+              <a href="#">
+                  <img src="img/menu_m.jpg" alt="">
+              </a>
+           </div>
+           <nav>
+               <ul class="clearfix">
+                   <li><a href="index.html"><h2><img src="img/homeb.png" alt=""> HOME</h2></a></li>
+                   <li><a href="book.html"><h2>BOOK</h2></a></li>
+                   <li><a href="poster.html"><h2>POSTER</h2></a></li>
+                   <li><a href="banner.html"><h2>LARGE SIZE</h2></a></li>
+                   <li><a href="promotion.html"><h2>PROMOTION GIFT</h2></a></li>
+               </ul>
+           </nav>
+       </header>
+       
+<!--       title-->
+      <div class="title">
+          <h3>POSTER</h3>
+          <p> 책, 브로슈어 등 제본 형태의 디자인 모음</p>
+      </div>
+      
+<!--      contents-->
+          <div class="con">
+             <ul class="clearfix">
+
+                <li>
+                    <div class="content">
+                        <img src="img/03.jpg" alt="poster">
+                        <h4>스터디카페 할인</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/03_h.jpg" alt="poster">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="content">
+                        <img src="img/22.jpg" alt="poster">
+                        <h4>소방학원 홍보</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/22_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/23.jpg" alt="poster">
+                        <h4>소방학원 홍보</h4>
+                        <p>POSTER</p>       
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/23_h.jpg" alt="poster">
+                    </div>
+                </li> 
+
+                <li>
+                    <div class="content">
+                        <img src="img/39.jpg" alt="poster">
+                        <h4>합격관리반 홍보</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/39_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/41.jpg" alt="poster">
+                        <h4>특강 포스터</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/41_h.jpg" alt="poster">
+                    </div>
+                </li>  
+                <li>
+                    <div class="content">
+                        <img src="img/42.jpg" alt="poster">
+                        <h4>특강 포스터</h4>
+                        <p>POSTER</p>     
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/42_h.jpg" alt="poster">
+                    </div>
+                </li> 
+                <li>
+                    <div class="content">
+                        <img src="img/43.jpg" alt="poster">
+                        <h4>특강 포스터</h4>
+                        <p>POSTER</p>      
+                    </div>
+                    <div class="con-hover">
+                        <img src="img/43_h.jpg" alt="poster">
+                    </div>
+                </li>          
+             </ul>
+          </div>
+        
+<!--        footer-->
+      <div class="footer">
+        <p>Copyright 2022. <span>YOUNG WOON JUNG</span> All rights reserved.</p>  
+      </div>
+   </div> 
+</body>
+</html>

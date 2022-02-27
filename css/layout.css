@@ -1,0 +1,160 @@
+@-ms-viewport{width:device-width;}
+@-o-viewport{width:device-width;}
+@-moz-viewport{width:device-width;}
+@-webkit-viewport{width:device-width;}
+@viewport{width:device-width;}
+
+@-ms-transition-duration:2s;
+@-mos-transition-duration:2s;
+@-o-transition-duration:2s;
+@-webkit-transition-duration:2s;
+
+*{ margin: 0; padding: 0; }
+body { background-color: #000; font-family: 'Roboto', 'Noto Sans KR', sans-serif; line-height: 1.3; letter-spacing: -0.2pt; word-spacing: 1.5pt;}
+h2, h3, h4, p { font-size: 100%; font-weight: normal; }
+a { text-decoration: none; color: inherit; }
+li { list-style: none; }
+.clearfix::after { content: " "; display: block; clear: both; }
+
+@keyframes sea {
+    0% { background-position: 100%; }
+    100% { background-position: 0%; }
+}
+
+.box { 
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.my-img {
+    position: relative;
+}
+
+.box-title {
+    color: #0cabff;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-top: 15rem;
+}
+
+.box-title img { width: 40%; }
+
+.box-title::before {
+    content: '';
+    position: absolute;
+    padding-top: 100%;
+    left: 0;
+    right: 0;
+    top: -100%;
+    background-color: currentColor;
+    background-image: url("../img/sea.jpg");
+    border-radius: 50%;
+    animation-name: sea;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+}
+
+.box-title h3 {
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    font-size: 3rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 1;
+}
+
+.box-title h3:after {
+    content: 'Artist 정영운';
+    font-family: 'Noto Sans KR';
+    font-size: 0.3em;
+    margin-left: 1em;
+    font-weight: 400;
+    color: white;
+    opacity: 0.8;
+}
+
+.box-contents {
+    max-width: 400px;
+    color: white;
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
+    word-spacing: 2pt;
+    letter-spacing: 0.3pt;
+    font-size: 11pt;
+    line-height: 2;
+}
+
+.box-contents p {
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
+    word-spacing: 2pt;
+    letter-spacing: -0.3pt;
+}
+
+.profile-section {
+    padding-top: 3em;
+    padding-bottom: 1em; 
+}
+
+.profile-section h3 {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    letter-spacing: 0.3pt;
+    border-top: 2px solid;
+    color: #0cabff;
+    padding-top: 1em;
+}
+
+.list dt {
+    color: #0cabff;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    letter-spacing: 0.3pt;
+    float: left;
+    width: 4em;
+}
+
+.Portfol a {
+    float: left;
+    width: 39%;
+    margin-left: 2%;
+    text-align: center;
+    background-color: #111111;
+    padding: 10% 5%;
+    overflow: hidden;
+}
+.Portfol a:nth-child(1){
+    margin-left: 0;
+}
+
+.Portfol a:hover {
+    border: 1px solid #0cabff;
+    padding: 9.75% 4.75%;
+    background-color: black;
+    animation-duration: 0.1s; 
+}
+
+.Portfol img {
+    width: 70px;
+    height: 70px;
+    padding-bottom: 0.8em;
+}
+
+.Portfol p {
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    word-spacing: 2pt;
+    letter-spacing: -0.3pt;
+    line-height: 1.5;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .box {padding: 0 2rem 2rem 2rem;}
+    .Portfol a { width: 38.9%; }
+}
